@@ -7,7 +7,7 @@ function enterClicked() {
   let lengthA = parseFloat(document.getElementById("a-length").value);
   let lengthB = parseFloat(document.getElementById("b-length").value);
   let height = parseFloat(document.getElementById("height").value);
-  
+
   //This is the math for the first part of the formula
   let result = lengthA * lengthB * height
   let resultRounded = result.toFixed(2)
